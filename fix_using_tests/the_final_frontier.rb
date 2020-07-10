@@ -10,9 +10,8 @@ def state_log(star_date)
 end
 
 def engage
-  state_log(star_date)
+  return state_log(star_date)
 end
-  binding.pry
 
 
 
