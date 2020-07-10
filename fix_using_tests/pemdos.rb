@@ -2,6 +2,8 @@
 require 'pry'
 
 def snake_it_up(string)
+      binding.pry
+
   if string[0] == "s"
     10 * "s" + string
     binding.pry
@@ -9,7 +11,6 @@ def snake_it_up(string)
     string
   end
 end
-    binding.pry
 
 =begin describe "pemdos" do
   it "`snake_it_up` adds the letter 's' ten times before any word that starts with 's'" do
