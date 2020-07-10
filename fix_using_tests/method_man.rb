@@ -2,13 +2,14 @@
 require 'pry'
 
 def start_game(player1, player2)
-  "Hello #{player1} & #{playar2}"
+  "Hello #{player1} & #{player2}"
 end
 binding.pry
 
 def play_game(player2)
   "#{player1} is better than #{player2}"
 end
+binding.pry
 
 =begin describe "method_man" do
   it "`start_game` should return greetings for each players name" do
