@@ -4,7 +4,7 @@ require 'pry'
 def get_user_input
   gets.chomp
 end
-  binding.pry
+
 def prompt_user
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
